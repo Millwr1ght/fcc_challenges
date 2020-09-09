@@ -1,0 +1,48 @@
+body {
+    color: black;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
+  #img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-self: center;
+  }
+  
+  #img-caption {
+    display: none;
+  }
+  
+  #tribute-info {
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    #image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        align-self: center;
+    }
+  }
